@@ -39,9 +39,9 @@ with open(Budget2, newline='') as csvfile:
     revenue_avg = sum(revenue_change_list) / len(revenue_change_list)
 # output Summary
     output = (
-    f"\Financial Analysis\n"
-    f"---------------------\n"
-    f"Total Months: {total_months}\n")
+        f"\Financial Analysis\n"
+        f"---------------------\n"
+        f"Total Months: {total_months}\n")
 
 print(output)
         
